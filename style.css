@@ -353,7 +353,54 @@ article {
 article .icon {
   position: relative;
 }
+/* SKills Section */
 
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 0;
+  position: relative;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.skill {
+  flex: 1;
+  min-width: 300px;
+  padding: 2rem;
+  background: peachpuff;
+  border-color: maroon;
+  border-radius: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.skill-title {
+  margin: 1rem;
+  color: maroon;
+}
+
+.skill p {
+  font-size: 1rem;
+  color: black;
+}
+
+.arrow-container {
+  position: absolute;
+  right: -0.3;
+  bottom: 2.5rem;
+}
 /* Projects Section */
 
 #projects {
@@ -368,7 +415,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 120%;
-  height: 90%;
+  height: 120%;
 }
 
 .project-title {
